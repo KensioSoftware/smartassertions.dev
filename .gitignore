@@ -1,0 +1,185 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+.coverage
+.coverage.*
+.coverage/
+coverage.xml
+htmlcov/
+nosetests.xml
+*.cover
+*.py,cover
+cover/
+
+# Build output
+dist/
+out/
+build/Release
+.astro/
+
+# Caches
+.grunt
+.cache
+.cache/
+.parcel-cache
+.cache-loader
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.tox/
+.nox/
+.dmypy.json
+dmypy.json
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components
+web_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager
+.lock-wscript
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Frameworks
+.next
+.nuxt
+.vuepress/dist
+.temp
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus
+
+# Serverless / Cloud
+.serverless/
+.dynamodb/
+cdk.out/
+.localstack-volume/
+
+# IDEs
+.vscode-test
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/replstate.xml
+.idea/sonarlint/
+.idea/sonarlint.xml
+.idea/httpRequests
+.idea/caches/build_file_checksums.ser
+.idea_modules/
+*.iws
+cmake-build-*/
+atlassian-ide-plugin.xml
+
+# Python
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker
+.docker/
+.dockervolumes/
+
+# Project-specific
+scripts/input/*
+!scripts/input/.gitkeep
+src/docs/docs/api/*.mdx
+
+# Misc
+.DS_Store
+.tern-port
+tmp/
+*.tmp
+*.tmp.*
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.fusebox/
+.node_repl_history
+*.tgz

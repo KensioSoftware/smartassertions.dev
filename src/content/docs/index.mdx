@@ -1,0 +1,198 @@
+---
+title: Smartass Assertion Functions
+description: Documentation for using Smartass type-narrowing assertion functions.
+---
+
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+Smartass is an npm package that provides type-narrowing assertion functions for TypeScript projects.
+
+<CardGrid>
+  <LinkCard
+    title="npm"
+    href="https://www.npmjs.com/package/@kensio/smartass"
+    description="@kensio/smartass npm package"
+  />
+  <LinkCard
+    title="GitHub"
+    href="https://github.com/KensioSoftware/smartass"
+    description="KensioSoftware/smartass GitHub repo"
+  />
+</CardGrid>
+
+## Installation
+
+```bash
+npm install -D @kensio/smartass
+```
+
+## Type narrowing with assertion signatures
+
+See
+[TypeScript assertion functions / assertion signatures](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
+
+The fluent `expect().toBe()` interface in Jest and Vitest is readable, but is
+unable to provide type information to TypeScript and IntelliSense.
+
+This library provides assertion functions with assertion signatures so that you
+can benefit from the extra type information.
+
+```typescript
+import { assertNonNullable } from "@kensio/smartass";
+
+const user: { name: string } | undefined = getUser();
+assertNonNullable(user);
+// TypeScript now knows user is neither null nor undefined,
+// so no need for ? or ! operators.
+const userName = user.name;
+```
+
+```typescript
+import { assertOneOf } from "@kensio/smartass";
+
+const status = getStatus();
+assertOneOf(status, ["pending", "active", "completed"]);
+// TypeScript now knows status is of type 'pending' | 'active' | 'completed'
+```
+
+## Composable type narrowing matchers
+
+As well as the standalone assertion functions, you can also use type narrowing matcher functions to
+compose an object structure.
+
+```typescript
+import {
+  assertObjectMatches,
+  arrayIncluding,
+  oneOf,
+  stringOfLength,
+} from "@kensio/smartass";
+
+const user = getUser();
+
+assertObjectMatches(user, {
+  role: oneOf(["admin", "editor", "viewer"]),
+  tags: arrayIncluding("beta"),
+  id: stringOfLength(8),
+});
+
+// TypeScript knows:
+//   user.role is 'admin' | 'editor' | 'viewer'
+//   user.tags is an array with at least one string element
+//   user.id is a string of length 8 with safe indexing
+```
+
+This applies the same type narrowing effect as the assertion functions but in a composable object
+structure.
+
+## Assertion functions
+
+{/* assertion-functions:start */}
+
+- [`assertArrayEquals`](/assertions/assertArrayEquals/)
+- [`assertArrayIncludesAll`](/assertions/assertArrayIncludesAll/)
+- [`assertArrayIncludes`](/assertions/assertArrayIncludes/)
+- [`assertArrayLength`](/assertions/assertArrayLength/)
+- [`assertArrayMinLength`](/assertions/assertArrayMinLength/)
+- [`assertArrayNotEmpty`](/assertions/assertArrayNotEmpty/)
+- [`assertBufferEqual`](/assertions/assertBufferEqual/)
+- [`assertDirectoryExists`](/assertions/assertDirectoryExists/)
+- [`assertFalse`](/assertions/assertFalse/)
+- [`assertFileEquals`](/assertions/assertFileEquals/)
+- [`assertFileExists`](/assertions/assertFileExists/)
+- [`assertFileIncludes`](/assertions/assertFileIncludes/)
+- [`assertFileNotIncludes`](/assertions/assertFileNotIncludes/)
+- [`assertIdentical`](/assertions/assertIdentical/)
+- [`assertInstanceOf`](/assertions/assertInstanceOf/)
+- [`assertMapSize`](/assertions/assertMapSize/)
+- [`assertNonNullable`](/assertions/assertNonNullable/)
+- [`assertNumberBetween`](/assertions/assertNumberBetween/)
+- [`assertNumberToNearest`](/assertions/assertNumberToNearest/)
+- [`assertObjectEquals`](/assertions/assertObjectEquals/)
+- [`assertObjectHasProperty`](/assertions/assertObjectHasProperty/)
+- [`assertObjectMatches`](/assertions/assertObjectMatches/)
+- [`assertOneOf`](/assertions/assertOneOf/)
+- [`assertPathExists`](/assertions/assertPathExists/)
+- [`assertPathNotExists`](/assertions/assertPathNotExists/)
+- [`assertSetSize`](/assertions/assertSetSize/)
+- [`assertStringEndsWith`](/assertions/assertStringEndsWith/)
+- [`assertStringIncludes`](/assertions/assertStringIncludes/)
+- [`assertStringLength`](/assertions/assertStringLength/)
+- [`assertStringNotIncludes`](/assertions/assertStringNotIncludes/)
+- [`assertStringStartsWith`](/assertions/assertStringStartsWith/)
+- [`assertThrowsErrorAsync`](/assertions/assertThrowsErrorAsync/)
+- [`assertThrowsErrorLike`](/assertions/assertThrowsErrorLike/)
+- [`assertThrowsError`](/assertions/assertThrowsError/)
+- [`assertTrue`](/assertions/assertTrue/)
+- [`assertTypeBigInt`](/assertions/assertTypeBigInt/)
+- [`assertTypeBoolean`](/assertions/assertTypeBoolean/)
+- [`assertTypeFunction`](/assertions/assertTypeFunction/)
+- [`assertTypeNumber`](/assertions/assertTypeNumber/)
+- [`assertTypeNumeric`](/assertions/assertTypeNumeric/)
+- [`assertTypeObject`](/assertions/assertTypeObject/)
+- [`assertTypeString`](/assertions/assertTypeString/)
+- [`assertTypeSymbol`](/assertions/assertTypeSymbol/)
+- [`assertTypeTypedArray`](/assertions/assertTypeTypedArray/)
+- [`assertUndefined`](/assertions/assertUndefined/)
+- [`assertUuidV4`](/assertions/assertUuidV4/)
+  {/* assertion-functions:end */}
+
+## Matcher functions
+
+{/* matcher-functions:start */}
+
+- [`arrayIncludingAll`](/matchers/arrayIncludingAll/)
+- [`arrayIncluding`](/matchers/arrayIncluding/)
+- [`arrayOfLength`](/matchers/arrayOfLength/)
+- [`arrayOfMinLength`](/matchers/arrayOfMinLength/)
+- [`nonEmptyArray`](/matchers/nonEmptyArray/)
+- [`bufferEqualTo`](/matchers/bufferEqualTo/)
+- [`instanceOf`](/matchers/instanceOf/)
+- [`mapOfSize`](/matchers/mapOfSize/)
+- [`nonNullable`](/matchers/nonNullable/)
+- [`numberBetween`](/matchers/numberBetween/)
+- [`numberToNearest`](/matchers/numberToNearest/)
+- [`objectWithProperty`](/matchers/objectWithProperty/)
+- [`oneOf`](/matchers/oneOf/)
+- [`setOfSize`](/matchers/setOfSize/)
+- [`stringEndingWith`](/matchers/stringEndingWith/)
+- [`stringIncluding`](/matchers/stringIncluding/)
+- [`stringOfLength`](/matchers/stringOfLength/)
+- [`stringNotIncluding`](/matchers/stringNotIncluding/)
+- [`stringStartingWith`](/matchers/stringStartingWith/)
+- [`typeBigInt`](/matchers/typeBigInt/)
+- [`typeBoolean`](/matchers/typeBoolean/)
+- [`typeFunction`](/matchers/typeFunction/)
+- [`typeNumber`](/matchers/typeNumber/)
+- [`typeNumeric`](/matchers/typeNumeric/)
+- [`typeObject`](/matchers/typeObject/)
+- [`typeString`](/matchers/typeString/)
+- [`typeSymbol`](/matchers/typeSymbol/)
+- [`typeTypedArray`](/matchers/typeTypedArray/)
+- [`uuidV4`](/matchers/uuidV4/)
+  {/* matcher-functions:end */}
+
+## Optional ESLint config
+
+The `@kensio/smartass` package also exports an optional ESLint flat config that discourages less
+specific assertion usage. For example:
+
+```typescript
+assertIdentical(foo.length, 2);
+// suggested improvement:
+assertArrayLength(foo, 2);
+```
+
+You can use this in your ESLint config like this:
+
+```typescript
+import { defineConfig } from "eslint/config";
+import tseslint from "typescript-eslint";
+
+import { smartassPreferSpecificAssertions } from "@kensio/smartass/eslint";
+
+export default defineConfig(
+  ...tseslint.configs.recommended,
+  ...smartassPreferSpecificAssertions,
+);
+```
