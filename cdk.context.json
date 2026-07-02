@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=485843113564:domainName=smartassertions.dev:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z09880312EKC0EQRIXUS8",
+    "Name": "smartassertions.dev."
+  },
+  "hosted-zone:account=485843113564:domainName=smartassertions.dev:region=us-east-1": {
+    "Id": "/hostedzone/Z09880312EKC0EQRIXUS8",
+    "Name": "smartassertions.dev."
+  }
+}
