@@ -105,14 +105,13 @@ function handler(event) {
       ),
     });
 
-    // TODO
-    // new route53.TxtRecord(this, "GoogleSiteVerificationRecord", {
-    //   zone: hostedZone,
-    //   recordName: domainName,
-    //   values: [
-    //     "google-site-verification=XVYZMHntWjol5xumkxmDuKgF9NCKe5N_TQLr3L8fpv8",
-    //   ],
-    // });
+    new route53.TxtRecord(this, "GoogleSiteVerificationRecord", {
+      zone: hostedZone,
+      recordName: domainName,
+      values: [
+        "google-site-verification=5WagazdA6kSrVgOzeKFKqe20gMnkXsB0aqnOymQmrCA",
+      ],
+    });
 
     new cdk.CfnOutput(this, "WebsiteUrl", {
       value: `https://${domainName}`,
