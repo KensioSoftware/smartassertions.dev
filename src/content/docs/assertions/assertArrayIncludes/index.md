@@ -15,7 +15,7 @@ Note that this uses the first element of the narrowed array type to indicate tha
 ## Usage
 
 ```ts
-import { assertArrayIncludes } from "@kensio/smartass";
+import { assertArrayIncludes } from "@kensio/smartass"
 
 const value: unknown = ["admin", "editor"];
 

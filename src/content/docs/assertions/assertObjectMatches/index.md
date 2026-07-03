@@ -19,7 +19,7 @@ Primitive values and non-plain objects are compared using Object.is.
 ## Usage
 
 ```ts
-import { assertObjectMatches, oneOf, typeString } from "@kensio/smartass";
+import { assertObjectMatches, oneOf, typeString } from "@kensio/smartass"
 
 const user: unknown = {
   name: "Ada",
