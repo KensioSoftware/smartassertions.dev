@@ -4,8 +4,6 @@ description: "Documentation for assertBufferEqual."
 slug: "assertions/assertBufferEqual"
 ---
 
-# `assertBufferEqual`
-
 Assert that two buffers (TypedArrays) are equal, comparing element by element.
 
 Supports all TypedArray types: Uint8Array, Int8Array, Uint16Array, Int16Array, Uint32Array, Int32Array, Float32Array, Float64Array, BigInt64Array, BigUint64Array.

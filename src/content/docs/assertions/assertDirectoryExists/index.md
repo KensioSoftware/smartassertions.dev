@@ -4,8 +4,6 @@ description: "Documentation for assertDirectoryExists."
 slug: "assertions/assertDirectoryExists"
 ---
 
-# `assertDirectoryExists`
-
 Assert that a filesystem path exists and is a directory.
 
 ## Usage

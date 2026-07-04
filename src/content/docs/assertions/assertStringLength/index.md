@@ -4,8 +4,6 @@ description: "Documentation for assertStringLength."
 slug: "assertions/assertStringLength"
 ---
 
-# `assertStringLength`
-
 Assert that a string has exactly the expected length, with type narrowing.
 
 The type narrowing indicates: - An empty string for 0 - An exact length and safe indexing of known character positions up to 10 - For >10, an exact length and safe indexing of known character positions up to 10 when those positions are guaranteed to exist.

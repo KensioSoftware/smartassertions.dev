@@ -4,8 +4,6 @@ description: "Documentation for typeNumeric."
 slug: "matchers/typeNumeric"
 ---
 
-# `typeNumeric`
-
 Matcher for a numeric value (number or bigint).
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

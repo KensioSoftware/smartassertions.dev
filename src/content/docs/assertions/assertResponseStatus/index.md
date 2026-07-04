@@ -4,8 +4,6 @@ description: "Documentation for assertResponseStatus."
 slug: "assertions/assertResponseStatus"
 ---
 
-# `assertResponseStatus`
-
 Assert that a Response has a specific HTTP status code, with type narrowing.
 
 Optionally use describeResponse() for the third argument to get more detailed diagnostic information if the assertion fails.

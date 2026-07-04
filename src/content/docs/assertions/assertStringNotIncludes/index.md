@@ -4,8 +4,6 @@ description: "Documentation for assertStringNotIncludes."
 slug: "assertions/assertStringNotIncludes"
 ---
 
-# `assertStringNotIncludes`
-
 Assert that a string does not include a given substring, with type narrowing.
 
 ## Usage

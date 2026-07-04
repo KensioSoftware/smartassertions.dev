@@ -4,8 +4,6 @@ description: "Documentation for assertUndefined."
 slug: "assertions/assertUndefined"
 ---
 
-# `assertUndefined`
-
 Assert that a value is strictly undefined, with type-narrowing to the `undefined` type.
 
 ## Usage

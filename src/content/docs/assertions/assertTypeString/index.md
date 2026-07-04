@@ -4,8 +4,6 @@ description: "Documentation for assertTypeString."
 slug: "assertions/assertTypeString"
 ---
 
-# `assertTypeString`
-
 Assert that a value is of type string, with type-narrowing.
 
 ## Usage

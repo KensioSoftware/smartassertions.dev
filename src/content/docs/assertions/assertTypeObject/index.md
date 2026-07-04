@@ -4,8 +4,6 @@ description: "Documentation for assertTypeObject."
 slug: "assertions/assertTypeObject"
 ---
 
-# `assertTypeObject`
-
 Assert that a value is of type object, with type-narrowing.
 
 ## Usage

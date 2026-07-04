@@ -4,8 +4,6 @@ description: "Documentation for arrayOfMinLength."
 slug: "matchers/arrayOfMinLength"
 ---
 
-# `arrayOfMinLength`
-
 Matcher for an array with at least the expected minimum length.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

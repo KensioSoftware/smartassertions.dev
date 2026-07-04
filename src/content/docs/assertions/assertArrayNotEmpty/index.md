@@ -4,8 +4,6 @@ description: "Documentation for assertArrayNotEmpty."
 slug: "assertions/assertArrayNotEmpty"
 ---
 
-# `assertArrayNotEmpty`
-
 Assert that an array has at least one element, with type-narrowing.
 
 ## Usage

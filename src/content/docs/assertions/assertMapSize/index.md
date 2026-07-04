@@ -4,8 +4,6 @@ description: "Documentation for assertMapSize."
 slug: "assertions/assertMapSize"
 ---
 
-# `assertMapSize`
-
 Assert that a Map has exactly the expected size, with type narrowing.
 
 ## Usage

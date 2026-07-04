@@ -4,8 +4,6 @@ description: "Documentation for assertThrowsErrorAsync."
 slug: "assertions/assertThrowsErrorAsync"
 ---
 
-# `assertThrowsErrorAsync`
-
 <!-- TODO: Add summary documentation for `assertThrowsErrorAsync`. -->
 
 ## Usage

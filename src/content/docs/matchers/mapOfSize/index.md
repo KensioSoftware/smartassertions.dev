@@ -4,8 +4,6 @@ description: "Documentation for mapOfSize."
 slug: "matchers/mapOfSize"
 ---
 
-# `mapOfSize`
-
 Matcher for a Map with exactly the expected size.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

@@ -4,8 +4,6 @@ description: "Documentation for objectWithProperty."
 slug: "matchers/objectWithProperty"
 ---
 
-# `objectWithProperty`
-
 Matcher for an object with a certain named property.
 
 The property only has to exist on the object, but could be undefined.

@@ -4,8 +4,6 @@ description: "Documentation for assertInstanceOf."
 slug: "assertions/assertInstanceOf"
 ---
 
-# `assertInstanceOf`
-
 Assertion function that checks if a value is an instance of a given class, with type-narrowing.
 
 ## Usage

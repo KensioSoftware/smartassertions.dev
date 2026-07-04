@@ -4,8 +4,6 @@ description: "Documentation for assertArrayEquals."
 slug: "assertions/assertArrayEquals"
 ---
 
-# `assertArrayEquals`
-
 Assert that an array exactly equals the expected array, with type narrowing.
 
 ## Usage

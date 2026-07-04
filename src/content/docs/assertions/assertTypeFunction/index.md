@@ -4,8 +4,6 @@ description: "Documentation for assertTypeFunction."
 slug: "assertions/assertTypeFunction"
 ---
 
-# `assertTypeFunction`
-
 Assert that a value is of type function, with type-narrowing.
 
 ## Usage

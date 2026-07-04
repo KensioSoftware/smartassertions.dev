@@ -4,8 +4,6 @@ description: "Documentation for typeBigInt."
 slug: "matchers/typeBigInt"
 ---
 
-# `typeBigInt`
-
 Matcher for a bigint value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

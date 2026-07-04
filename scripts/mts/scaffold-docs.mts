@@ -209,8 +209,6 @@ description: "Documentation for ${link.name}."
 slug: "${slug}"
 ---
 
-# \`${link.name}\`
-
 ${docblock.summary}
 
 ## Usage

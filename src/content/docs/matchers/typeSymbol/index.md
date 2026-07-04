@@ -4,8 +4,6 @@ description: "Documentation for typeSymbol."
 slug: "matchers/typeSymbol"
 ---
 
-# `typeSymbol`
-
 Matcher for a symbol value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

@@ -4,8 +4,6 @@ description: "Documentation for assertThrowsError."
 slug: "assertions/assertThrowsError"
 ---
 
-# `assertThrowsError`
-
 Assertion function that verifies a given function throws an error.
 
 Returns the thrown error for further assertions.

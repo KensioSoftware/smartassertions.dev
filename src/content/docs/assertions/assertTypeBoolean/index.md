@@ -4,8 +4,6 @@ description: "Documentation for assertTypeBoolean."
 slug: "assertions/assertTypeBoolean"
 ---
 
-# `assertTypeBoolean`
-
 Assert that a value is of type boolean, with type-narrowing.
 
 ## Usage

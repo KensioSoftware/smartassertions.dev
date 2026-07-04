@@ -4,8 +4,6 @@ description: "Documentation for assertTypeBigInt."
 slug: "assertions/assertTypeBigInt"
 ---
 
-# `assertTypeBigInt`
-
 Asserts that a value is a bigint, with type-narrowing.
 
 ## Usage

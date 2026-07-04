@@ -4,8 +4,6 @@ description: "Documentation for assertPathNotExists."
 slug: "assertions/assertPathNotExists"
 ---
 
-# `assertPathNotExists`
-
 Assert that a filesystem path does not exist.
 
 ## Usage

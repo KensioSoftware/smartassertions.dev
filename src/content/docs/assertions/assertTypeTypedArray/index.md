@@ -4,8 +4,6 @@ description: "Documentation for assertTypeTypedArray."
 slug: "assertions/assertTypeTypedArray"
 ---
 
-# `assertTypeTypedArray`
-
 Assert that a value is a TypedArray, with type-narrowing.
 
 Supports all TypedArray types: Uint8Array, Int8Array, Uint16Array, Int16Array, Uint32Array, Int32Array, Float32Array, Float64Array, BigInt64Array, BigUint64Array.

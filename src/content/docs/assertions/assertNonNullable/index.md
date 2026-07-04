@@ -4,8 +4,6 @@ description: "Documentation for assertNonNullable."
 slug: "assertions/assertNonNullable"
 ---
 
-# `assertNonNullable`
-
 Assert that a value is non-nullable, with type-narrowing.
 
 ## Usage

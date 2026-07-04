@@ -4,8 +4,6 @@ description: "Documentation for assertFileIncludes."
 slug: "assertions/assertFileIncludes"
 ---
 
-# `assertFileIncludes`
-
 <!-- TODO: Add summary documentation for `assertFileIncludes`. -->
 
 ## Usage

@@ -4,8 +4,6 @@ description: "Documentation for arrayOfLength."
 slug: "matchers/arrayOfLength"
 ---
 
-# `arrayOfLength`
-
 Matcher for an array with exactly the expected length.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

@@ -4,8 +4,6 @@ description: "Documentation for responseOfStatus."
 slug: "matchers/responseOfStatus"
 ---
 
-# `responseOfStatus`
-
 Matcher for a Response with a specific HTTP status code.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

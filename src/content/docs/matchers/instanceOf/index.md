@@ -4,8 +4,6 @@ description: "Documentation for instanceOf."
 slug: "matchers/instanceOf"
 ---
 
-# `instanceOf`
-
 Matcher for a value being an instance of a given class.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

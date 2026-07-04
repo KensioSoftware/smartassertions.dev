@@ -4,8 +4,6 @@ description: "Documentation for assertTrue."
 slug: "assertions/assertTrue"
 ---
 
-# `assertTrue`
-
 Assert that a value is strictly true (not just truthy), with type-narrowing to the literal type `true`.
 
 ## Usage

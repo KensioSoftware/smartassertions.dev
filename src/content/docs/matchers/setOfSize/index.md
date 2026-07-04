@@ -4,8 +4,6 @@ description: "Documentation for setOfSize."
 slug: "matchers/setOfSize"
 ---
 
-# `setOfSize`
-
 Matcher for a Set with exactly the expected size.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

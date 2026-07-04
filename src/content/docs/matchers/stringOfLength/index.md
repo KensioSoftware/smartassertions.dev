@@ -4,8 +4,6 @@ description: "Documentation for stringOfLength."
 slug: "matchers/stringOfLength"
 ---
 
-# `stringOfLength`
-
 Matcher for a string with exactly the expected length.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

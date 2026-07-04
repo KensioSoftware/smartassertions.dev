@@ -4,8 +4,6 @@ description: "Documentation for nonNullable."
 slug: "matchers/nonNullable"
 ---
 
-# `nonNullable`
-
 Matcher for a non-nullable value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

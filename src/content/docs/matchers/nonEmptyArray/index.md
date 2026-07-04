@@ -4,8 +4,6 @@ description: "Documentation for nonEmptyArray."
 slug: "matchers/nonEmptyArray"
 ---
 
-# `nonEmptyArray`
-
 Matcher for a non-empty array.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

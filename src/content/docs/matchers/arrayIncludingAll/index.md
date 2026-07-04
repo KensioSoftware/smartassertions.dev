@@ -4,8 +4,6 @@ description: "Documentation for arrayIncludingAll."
 slug: "matchers/arrayIncludingAll"
 ---
 
-# `arrayIncludingAll`
-
 Matcher for an array including all specified elements.
 
 Elements can appear in any order and do not need to be contiguous.

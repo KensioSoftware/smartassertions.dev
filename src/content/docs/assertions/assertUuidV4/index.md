@@ -4,8 +4,6 @@ description: "Documentation for assertUuidV4."
 slug: "assertions/assertUuidV4"
 ---
 
-# `assertUuidV4`
-
 Assert that a value is a UUID v4 string, with type-narrowing.
 
 ## Usage

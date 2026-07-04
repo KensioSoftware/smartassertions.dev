@@ -4,8 +4,6 @@ description: "Documentation for stringEndingWith."
 slug: "matchers/stringEndingWith"
 ---
 
-# `stringEndingWith`
-
 Matcher for a string that ends with a given suffix.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

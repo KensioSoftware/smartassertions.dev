@@ -4,8 +4,6 @@ description: "Documentation for typeTypedArray."
 slug: "matchers/typeTypedArray"
 ---
 
-# `typeTypedArray`
-
 Matcher for a TypedArray value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

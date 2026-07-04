@@ -4,8 +4,6 @@ description: "Documentation for typeString."
 slug: "matchers/typeString"
 ---
 
-# `typeString`
-
 Matcher for a string value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

@@ -4,8 +4,6 @@ description: "Documentation for numberBetween."
 slug: "matchers/numberBetween"
 ---
 
-# `numberBetween`
-
 Matcher for a numeric value between min and max inclusive.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

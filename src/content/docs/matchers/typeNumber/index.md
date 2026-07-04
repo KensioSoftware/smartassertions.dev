@@ -4,8 +4,6 @@ description: "Documentation for typeNumber."
 slug: "matchers/typeNumber"
 ---
 
-# `typeNumber`
-
 Matcher for a number value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

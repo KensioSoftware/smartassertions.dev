@@ -4,8 +4,6 @@ description: "Documentation for assertThrowsErrorLike."
 slug: "assertions/assertThrowsErrorLike"
 ---
 
-# `assertThrowsErrorLike`
-
 Assertion function that verifies a given function throws something that appears to be an error.
 
 Returns the thrown error-like object for further assertions.

@@ -4,8 +4,6 @@ description: "Documentation for assertTypeSymbol."
 slug: "assertions/assertTypeSymbol"
 ---
 
-# `assertTypeSymbol`
-
 Assert that a value is of type symbol, with type-narrowing.
 
 ## Usage

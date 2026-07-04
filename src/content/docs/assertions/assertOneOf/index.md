@@ -4,8 +4,6 @@ description: "Documentation for assertOneOf."
 slug: "assertions/assertOneOf"
 ---
 
-# `assertOneOf`
-
 Assert that a value is one of a set of expected values, with type-narrowing.
 
 ## Usage

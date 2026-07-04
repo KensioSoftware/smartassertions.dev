@@ -4,8 +4,6 @@ description: "Documentation for assertArrayIncludes."
 slug: "assertions/assertArrayIncludes"
 ---
 
-# `assertArrayIncludes`
-
 Assert that an array includes a specific element, with type narrowing.
 
 Note that this is an identity match, so objects in an array only fulfill the assertion by being a reference to the same object, rather than equivalent in value to another object reference.

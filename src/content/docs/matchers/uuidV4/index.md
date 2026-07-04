@@ -4,8 +4,6 @@ description: "Documentation for uuidV4."
 slug: "matchers/uuidV4"
 ---
 
-# `uuidV4`
-
 Matcher for a UUID v4 string value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

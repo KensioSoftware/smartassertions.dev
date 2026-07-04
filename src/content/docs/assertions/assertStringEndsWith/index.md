@@ -4,8 +4,6 @@ description: "Documentation for assertStringEndsWith."
 slug: "assertions/assertStringEndsWith"
 ---
 
-# `assertStringEndsWith`
-
 Assert that a string ends with a given suffix, with type narrowing.
 
 ## Usage

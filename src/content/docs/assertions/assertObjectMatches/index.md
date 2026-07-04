@@ -4,8 +4,6 @@ description: "Documentation for assertObjectMatches."
 slug: "assertions/assertObjectMatches"
 ---
 
-# `assertObjectMatches`
-
 Assert that an object matches a partial deep object structure, with type-narrowing.
 
 Plain objects are matched partially and recursively.

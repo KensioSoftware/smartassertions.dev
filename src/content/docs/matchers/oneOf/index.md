@@ -4,8 +4,6 @@ description: "Documentation for oneOf."
 slug: "matchers/oneOf"
 ---
 
-# `oneOf`
-
 Matcher for a value that is one of a set of expected values.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

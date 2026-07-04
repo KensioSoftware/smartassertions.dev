@@ -4,8 +4,6 @@ description: "Documentation for assertNumberBetween."
 slug: "assertions/assertNumberBetween"
 ---
 
-# `assertNumberBetween`
-
 Assert that a numeric value is between min and max inclusive, with type-narrowing.
 
 ## Usage

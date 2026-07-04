@@ -4,8 +4,6 @@ description: "Documentation for assertArrayMinLength."
 slug: "assertions/assertArrayMinLength"
 ---
 
-# `assertArrayMinLength`
-
 Assert that an array has at least the expected minimum length, with type narrowing.
 
 The type narrowing indicates: - A non-empty array for 1 - At least N elements up to 5 - At least 5 elements for >5

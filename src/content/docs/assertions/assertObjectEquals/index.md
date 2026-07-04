@@ -4,8 +4,6 @@ description: "Documentation for assertObjectEquals."
 slug: "assertions/assertObjectEquals"
 ---
 
-# `assertObjectEquals`
-
 Assert that two objects have the same own keys and deeply equal values, with type narrowing.
 
 Plain objects are compared recursively by value.

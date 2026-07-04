@@ -4,8 +4,6 @@ description: "Documentation for assertStringIncludes."
 slug: "assertions/assertStringIncludes"
 ---
 
-# `assertStringIncludes`
-
 Assert that a string includes a given substring, with type narrowing.
 
 ## Usage

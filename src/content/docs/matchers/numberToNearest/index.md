@@ -4,8 +4,6 @@ description: "Documentation for numberToNearest."
 slug: "matchers/numberToNearest"
 ---
 
-# `numberToNearest`
-
 Matcher for a number that, when rounded to the nearest given increment, equals the expected value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

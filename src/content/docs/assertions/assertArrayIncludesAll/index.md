@@ -4,8 +4,6 @@ description: "Documentation for assertArrayIncludesAll."
 slug: "assertions/assertArrayIncludesAll"
 ---
 
-# `assertArrayIncludesAll`
-
 Assert that an array includes all specified elements, with type narrowing.
 
 Elements can appear in any order and do not need to be contiguous.

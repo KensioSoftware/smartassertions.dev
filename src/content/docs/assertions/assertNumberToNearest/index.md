@@ -4,8 +4,6 @@ description: "Documentation for assertNumberToNearest."
 slug: "assertions/assertNumberToNearest"
 ---
 
-# `assertNumberToNearest`
-
 Assert that a numeric value, when rounded to the nearest given increment, equals the expected value.
 
 ## Usage

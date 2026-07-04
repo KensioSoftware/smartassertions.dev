@@ -4,8 +4,6 @@ description: "Documentation for assertTypeNumber."
 slug: "assertions/assertTypeNumber"
 ---
 
-# `assertTypeNumber`
-
 Assert that a value is of type number, with type-narrowing.
 
 ## Usage

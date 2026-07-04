@@ -4,8 +4,6 @@ description: "Documentation for assertFileEquals."
 slug: "assertions/assertFileEquals"
 ---
 
-# `assertFileEquals`
-
 Assert that a file's content exactly equals the expected content.
 
 ## Usage

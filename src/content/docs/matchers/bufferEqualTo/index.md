@@ -4,8 +4,6 @@ description: "Documentation for bufferEqualTo."
 slug: "matchers/bufferEqualTo"
 ---
 
-# `bufferEqualTo`
-
 Matcher for a TypedArray equal to an expected TypedArray, comparing byte by byte.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

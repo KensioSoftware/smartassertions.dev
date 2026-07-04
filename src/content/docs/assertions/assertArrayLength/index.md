@@ -4,8 +4,6 @@ description: "Documentation for assertArrayLength."
 slug: "assertions/assertArrayLength"
 ---
 
-# `assertArrayLength`
-
 Assert that an array has exactly the expected length, with type narrowing.
 
 The type narrowing indicates: - An empty array for 0 - An exact number of elements up to 10 - At least 10 elements for >10

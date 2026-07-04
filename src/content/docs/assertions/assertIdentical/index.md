@@ -4,8 +4,6 @@ description: "Documentation for assertIdentical."
 slug: "assertions/assertIdentical"
 ---
 
-# `assertIdentical`
-
 Assert that a value is strictly identical to an expected value using ===, with type-narrowing.
 
 ## Usage

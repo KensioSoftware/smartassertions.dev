@@ -4,8 +4,6 @@ description: "Documentation for stringNotIncluding."
 slug: "matchers/stringNotIncluding"
 ---
 
-# `stringNotIncluding`
-
 Matcher for a string that does not include a given substring.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

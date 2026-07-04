@@ -4,8 +4,6 @@ description: "Documentation for assertSetSize."
 slug: "assertions/assertSetSize"
 ---
 
-# `assertSetSize`
-
 Assert that a Set has exactly the expected size, with type narrowing.
 
 ## Usage

@@ -4,8 +4,6 @@ description: "Documentation for assertFalse."
 slug: "assertions/assertFalse"
 ---
 
-# `assertFalse`
-
 Assert that a value is strictly false (not just falsy), with type-narrowing to the literal type `false`.
 
 ## Usage

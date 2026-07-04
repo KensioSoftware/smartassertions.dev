@@ -4,8 +4,6 @@ description: "Documentation for typeBoolean."
 slug: "matchers/typeBoolean"
 ---
 
-# `typeBoolean`
-
 Matcher for a boolean value.
 
 Matchers are applied through assertObjectMatches, where they narrow the corresponding property type.

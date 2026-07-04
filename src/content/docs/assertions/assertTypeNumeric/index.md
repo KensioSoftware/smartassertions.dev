@@ -4,8 +4,6 @@ description: "Documentation for assertTypeNumeric."
 slug: "assertions/assertTypeNumeric"
 ---
 
-# `assertTypeNumeric`
-
 Assert that a value is numeric (number or bigint), with type-narrowing.
 
 ## Usage

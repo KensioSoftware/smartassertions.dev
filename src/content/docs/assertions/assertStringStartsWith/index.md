@@ -4,8 +4,6 @@ description: "Documentation for assertStringStartsWith."
 slug: "assertions/assertStringStartsWith"
 ---
 
-# `assertStringStartsWith`
-
 Assert that a string starts with a given prefix, with type narrowing.
 
 ## Usage
